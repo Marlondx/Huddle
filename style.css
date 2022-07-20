@@ -1,0 +1,600 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* parte do menu  */
+.titulo {
+    position: absolute;
+    display: flex;
+    margin: 2%;
+    width: 15%;
+
+}
+
+.menu {
+    width: 50vw;
+    margin: 2% 0 0 45%;
+    display: flex;
+    flex-flow: column wrap;
+    /* background-color: red; */
+    align-content: flex-end;
+}
+
+.menu a {
+    color: #FF52C1;
+    text-decoration: none;
+    border: solid;
+    width: 7.5em;
+    border-radius: 23px;
+    padding: 1%;
+    text-align: center;
+}
+
+/* texo de cima  */
+
+.textocima {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+
+
+
+}
+
+.textocima h1 {
+    font-size: 22pt;
+    margin-bottom: 1%;
+}
+
+.textocima p {}
+
+.butocima {
+    display: flex;
+    justify-content: center;
+}
+
+#bcimo {
+    display: flex;
+    top: 50%;
+    left: 47%;
+    background-color: #FF52C1;
+    color: white;
+    border-radius: 18px;
+    border-color: #FF52C1;
+    width: 18em;
+    padding: 1em;
+    justify-content: center;
+
+}
+
+.imggrandecima {
+    display: flex;
+    justify-content: center;
+}
+
+#imcima {
+    margin-top: 10%;
+}
+
+/* numeres de exeplos  */
+.numeroscompletos {
+    display: flex;
+    width: 100vw;
+}
+
+.numero1 {
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.numero1 img {
+    width: 2em;
+}
+
+.numero1 p {
+    font-size: 30pt;
+}
+
+.numero2 {
+    width: 45vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.numero2 img {
+    width: 2em;
+}
+
+.numero2 p {
+    font-size: 30pt;
+}
+
+/* codeúdo */
+.fundo1 {
+    width: 100vw;
+    height: 20vh;
+    margin-bottom: -2%;
+}
+
+.fundomobile1 {
+    display: none;
+}
+
+.fundomobile2 {
+    display: none;
+}
+
+.fundo2 {
+    margin-top: -1%;
+    width: 100vw;
+    height: 20vh
+}
+
+.crescer {
+    top: 200%;
+    display: flex;
+    width: 100vw;
+    background-color: #F6FBFF;
+    background-repeat: no-repeat;
+}
+
+#textcrecer {
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    text-align: left;
+    min-height: 300px;
+    padding: 12% 0 0 5%;
+
+}
+
+#textcrecer h3 {
+    font-size: 20pt;
+    margin-bottom: 1%;
+}
+
+#imgmobile {
+    display: none;
+}
+
+#imgdesktop {
+    display: flex;
+    margin-top: 3%;
+    width: 35%;
+    height: 30%;
+}
+
+.Conversas {
+    display: flex;
+    width: 100vw;
+}
+
+#textconversa {
+    text-align: left;
+    flex-direction: column;
+    padding: 8% 0 0 5%;
+    margin-left: 6%;
+}
+
+#textconversa h3 {
+    font-size: 20pt;
+    margin-bottom: 1%;
+}
+
+.Conversas img {
+    margin-left: 3%;
+    width: 35%;
+    height: 30%;
+}
+
+.usuarios {
+    width: 100vw;
+    display: flex;
+    background-color: #F6FBFF;
+}
+
+#textusuarios {
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    text-align: left;
+    min-height: 300px;
+    padding: 12% 0 0 5%;
+}
+
+#textusuarios h3 {
+    font-size: 20pt;
+    margin-bottom: 1%;
+}
+
+.usuarios img {
+    margin-top: 3%;
+    width: 35%;
+    height: 30%;
+
+}
+
+/* butoom do meio  */
+.começaragorara {
+    width: 100vw;
+    text-align: center;
+    margin: 10% 0 10% 0;
+}
+
+.começaragorara h2 {
+    margin-bottom: 1%;
+}
+
+.começaragorara button {
+
+    color: #ffff;
+    background-color: #FF52C1;
+    border-radius: 10px;
+    border-color: #FF52C1;
+    width: 15em;
+    height: 3.5em;
+}
+
+/* rodapés  */
+
+
+footer{
+   color: white;
+}
+.imgfoot{
+    width: 100vw;
+}
+.footerfilho{
+    display: flex;
+    background-color: #01262f;
+    margin-top: -1%;
+    width: 100vw;
+    height: 40vh;
+    
+}
+.huddles{
+    width: 50vw;
+    padding:1% 0 0 8%;
+}
+#footertitulo{
+    display: flex;
+    
+}
+
+#imgmessages{
+    width:2em;
+    height: 2em;
+    padding:1.5% 0 0 0%;
+}
+#fottitulo{
+    padding-left: 2%;
+}
+/* contato */
+.Phone{
+    display: flex;
+    padding:2% 0 2% 0 ;
+}
+.email{
+    display: flex;
+}
+.Newsletter{
+    width: 50vw;
+    padding:1% 0 0 5%;
+}
+.footast{
+
+}
+.footast h2{
+    padding-bottom: 1%;
+    font-size: 20pt;
+}
+.pesquisa{
+    padding: 3%;
+}
+.pesquisa input{
+    border-radius: 8px;
+    width: 15em;
+    height: 2.8em;
+}
+.pesquisa button{
+    margin-left:2%;
+    color: #ffff;
+    background-color: #FF52C1;
+    border-radius: 8px;
+    border-color: #FF52C1;
+    width: 15em;
+    height: 3em;
+}
+.Newslettermobile{
+    display: none;
+}
+/* para celular  */
+@media (max-width:600px) {
+
+    /* logo na nave  */
+    .titulo {
+        width: 30%;
+
+    }
+
+    /* primeiro texto e imagem */
+    .textocima {
+        text-align: center;
+        margin: 14% 0 8% 0;
+    }
+
+    .textocima h1 {
+        font-size: 17pt;
+        margin-bottom: 2%;
+    }
+
+    .textocima p {
+        font-size: 10pt;
+
+    }
+
+    .imggrandecima {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    #imcima {
+        margin-top: 10%;
+        width: 90vw;
+    }
+
+    /* numero de cálculos  */
+    .numeroscompletos {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .numero1 {
+        width: 50vw;
+        margin-bottom: 10%;
+
+
+    }
+
+    /* codeúdo */
+    .fundo1 {
+        display: none;
+    }
+
+    .fundo2 {
+        display: none;
+
+    }
+
+    .fundomobile1 {
+        width: 100vw;
+        display: flex;
+    }
+
+    .fundomobile2 {
+        width: 100vw;
+        display: flex;
+    }
+    /* crescer */
+    .crescer {
+        top: 200%;
+        display: flex;
+        width: 100vw;
+        background-color: #F6FBFF;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #textcrecer {
+
+        flex-direction: column;
+        width: 50vw;
+        text-align: center;
+        min-height: 300px;
+        padding: 12% 0 0 5%;
+
+    }
+
+    #textcrecer h3 {
+        font-size: 16pt;
+        margin-bottom: 5%;
+    }
+
+    #textcrecer p {
+        font-size: 11pt;
+    }
+
+    #imgmobile {
+        display: flex;
+        margin-top: 5%;
+        width: 55%;
+        height: 30%;
+    }
+
+    #imgdesktop {
+
+        display: none;
+    }
+
+    /* conversas */
+    .Conversas {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+    #textconversa {
+        text-align: center;
+        flex-direction: column;
+        padding: 8% 0 0 0;
+        margin-left: 0%;
+        width: 50vw;
+       
+    }
+    
+    #textconversa h3 {
+        font-size: 16pt;
+        margin-bottom: 1%;
+    }
+    #textconversa p {
+        font-size: 11pt;
+    }
+    
+    .Conversas img {
+        margin-left: 3%;
+        width: 60%;
+        height: 30%;
+    }
+    /* usuário */
+    .usuarios {
+        width: 100vw;
+        display: flex;
+        background-color: #F6FBFF;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #textusuarios {
+        align-items: center;
+        flex-direction: column;
+        width: 50vw;
+        text-align: center;
+        min-height: 300px;
+        padding: 12% 0 0 5%;
+    }
+    
+    #textusuarios h3 {
+        font-size: 16pt;
+        margin-bottom: 1%;
+    }
+    #textusuarios p {
+        font-size: 11pt;
+    }
+    
+    .usuarios img {
+        margin-top: 3%;
+        width: 55%;
+        height: 30%;
+    
+    }
+    /* button do meio  */
+    .começaragorara {
+        width: 100vw;
+        text-align: center;
+        margin: 1% 0 10% 0;
+    }
+    
+    .começaragorara h2 {
+        width: 50vw;
+        padding: 0;
+        margin: auto;
+    }
+    
+    .começaragorara button {
+    
+        color: #ffff;
+        background-color: #FF52C1;
+        border-radius: 10px;
+        border-color: #FF52C1;
+        width: 15em;
+        height: 3.5em;
+        margin-top: 5%;
+    }
+    /* rodapés */
+
+    footer{
+        color: white;
+     }
+     .imgfoot{
+         width: 100vw;
+     }
+     .footerfilho{
+         display: flex;
+         flex-direction: column;
+         background-color: #01262f;
+         margin-top: -1%;
+         width: 100vw;
+         height: 100vh;
+         
+     }
+     .Newslettermobile{
+        display: flex;
+        flex-direction: column;
+        padding:6% 0 0 5%;
+     }
+
+     .Newsletter{
+        display: none;
+        width: 50vw;
+        padding:1% 0 0 5%;
+    }
+    .footast{
+    
+    }
+    .footast h2{
+        padding-bottom: 1%;
+        font-size: 20pt;
+    }
+    .pesquisa{
+        padding: 3%;
+    }
+    .pesquisa input{
+        border-radius: 8px;
+        width: 83vw;
+        height: 10vw;
+        margin-left:-5%;
+        
+    }
+    .pesquisa button{
+        
+        margin:1% 0 0 50%;
+        color: #ffff;
+        background-color: #FF52C1;
+        border-radius: 8px;
+        border-color: #FF52C1;
+        width: 35vw;
+        height: 3em;
+    }
+     .huddles{
+         width: 95vw;
+         padding:1% 0 0 5%;
+     }
+     .huddles p{
+        
+     }
+     #footertitulo{
+         display: flex;
+         
+     }
+     
+     #imgmessages{
+         width:2em;
+         height: 2em;
+         padding:1.5% 0 0 0%;
+     }
+     #fottitulo{
+         padding-left: 2%;
+     }
+     /* contato */
+     .Phone{
+         display: flex;
+         padding:2% 0 2% 0 ;
+     }
+     .email{
+         display: flex;
+     }
+    
+    
+}
