@@ -49,7 +49,6 @@
     margin-bottom: 1%;
 }
 
-.textocima p {}
 
 .butocima {
     display: flex;
@@ -286,9 +285,7 @@ footer{
     width: 50vw;
     padding:1% 0 0 5%;
 }
-.footast{
 
-}
 .footast h2{
     padding-bottom: 1%;
     font-size: 20pt;
@@ -516,6 +513,7 @@ footer{
 
     footer{
         color: white;
+
      }
      .imgfoot{
          width: 100vw;
@@ -524,7 +522,7 @@ footer{
          display: flex;
          flex-direction: column;
          background-color: #01262f;
-         margin-top: -1%;
+         margin-top: -2%;
          width: 100vw;
          height: 100vh;
          
@@ -540,9 +538,7 @@ footer{
         width: 50vw;
         padding:1% 0 0 5%;
     }
-    .footast{
-    
-    }
+   
     .footast h2{
         padding-bottom: 1%;
         font-size: 20pt;
@@ -571,9 +567,7 @@ footer{
          width: 95vw;
          padding:1% 0 0 5%;
      }
-     .huddles p{
-        
-     }
+    
      #footertitulo{
          display: flex;
          
